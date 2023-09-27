@@ -1,0 +1,42 @@
+
+body{
+  margin:0;  
+  padding:0;
+
+}
+
+.outer{
+     text-align: center;
+     margin-top: 10px;
+  
+}
+.page{
+  color:saddlebrown;
+   text-align:center;
+   display: inline-block;
+   background-color: beige;
+
+}
+a{
+  color:saddlebrown;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+a:hover {
+  color:lavender;  
+ }
+  a:active {
+  color:#laverderblush;
+}
+.nav{
+  font-family: 'Martian Mono', monospace;
+   margin-left:10px;
+   margin-top:10px;
+   text-align: left;
+}
+
+  
+	  }
