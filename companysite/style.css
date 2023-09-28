@@ -1,0 +1,128 @@
+body{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	background-color: white;
+	margin:;
+
+}
+.outer{
+text-align: center;
+}
+.page{
+	margin-top: 10px;
+	width:100%;
+	text-align: center;
+
+
+}
+.topofpage{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	height:100px;
+	
+
+}
+.navbar{
+text-align:left;
+flex-grow: 1;
+margin-left: -50px;
+
+
+}
+
+.logo{
+
+	max-width: 200px;
+	text-align:center;
+
+
+}
+.logo_img{
+	width:30%;
+	margin-right: 50px;
+	
+}
+
+.location{
+	max-width: 150px;
+	text-align: :right;
+align-content: flex-end;
+display: inline-block;
+
+}
+.location_img{
+	margin-right: 10px;
+	width:10%;
+}
+.signin{
+max-width: 100px;	
+}
+
+.signin_img{
+width:75%;
+}
+.joinnow{
+max-width: 100px;
+text-align: left;
+
+}
+
+.joinnow_img{
+	margin-left:-20px;
+	width:80%;
+}
+
+a{
+	color:black;
+	font-weight:400;
+	margin-right:20px;
+
+
+}
+
+
+a:hover{
+	color:;
+}
+.content{
+	
+	background-color: #006241;
+	text-align:center;
+	color:white;
+
+}
+.menu{
+	
+	background-color: #006241;
+	text-align:center;
+	color:white;
+}
+.rewards{
+	background-color: #006241;
+	text-align:center;
+	color:white;
+}
+.giftcard{
+	background-color: #006241;
+	text-align:center;
+	color:white;
+}
+.locationpage{
+	background-color: #006241;
+	text-align:center;
+	color:white;
+}
+.signinpage{
+	background-color: #006241;
+	text-align:center;
+	color:white;
+}
+.joinnowpage{
+	background-color: #006241;
+	text-align:center;
+	color:white;
+}
