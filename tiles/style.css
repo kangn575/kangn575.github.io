@@ -1,0 +1,91 @@
+
+.outer{
+	text-align: center;
+}
+
+.page{
+	postion:relative;
+	background-color: antiquewhite;
+	margin-top: 0px;
+	max-width: 1200px;
+	width: 100%;
+	height:100%;
+	display:inline-block;
+	opacity: .6;
+
+	
+}
+.text{
+	text-align: center;
+	margin-top: 250px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 72px;
+	font-weight: 600;
+	color:#76232f;
+
+}
+
+.logoimg{
+	max-width: 200px;
+	text-align:center;
+	width:5%;
+	margin-right: 30px;
+	margin-top: 8px;
+}
+	
+
+.navbar{
+	position: sticky;
+	position: -webkit-sticky; /* safari */
+	top:0px;
+	background-color: #006241;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	z-index: 100;
+	opacity: .9;
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	font-size: 42px;
+	font-weight: 800px;
+
+}
+
+
+.tile{
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 600px;
+}
+
+
+.tilebg1{
+	background-image: url("img/coffeemachine.jpg");
+
+	
+}
+
+.tilebg2{
+	background-image: url("img/tableorder.jpg");
+	
+}
+
+.tilebg3{
+	background-image: url("img/espressolatte.jpg");
+}
+
+.tilebg4{
+	background-image: url("img/frenchpastry.jpg");
+}
+
+.tilebg5{
+	background-image: url("img/coffeebean.jpg");
+}
+
+.tilebg6{
+	background-image: url("img/cupstorage.jpg");
+}
+
+.tilebg7{
+	background-image: url("img/croissant.jpg");
+}
