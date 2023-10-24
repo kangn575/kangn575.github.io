@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+		.my_filter{
+
+      -webkit-filter: blur:(100px) saturate(0) constrast(0); 
+      filter: blur(100px) saturate(0) contrast(0);
+
+      
+
+     }
+
+
+    .my_filter:hover{
+
+      animation: 2s myfilteranimation forwards;
+
+    }
+
+    .filter_img {
+     	width:500px;
+     	}
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: blur:(0px) saturate(1) contrast(1); 
+	        filter: blur(0px) saturate(1) contrast(1);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<div class="my_filter">
+	<img class="filter_img" src="img/pumpkin.jpg">
+</div>
+
+</body>
+</html>
