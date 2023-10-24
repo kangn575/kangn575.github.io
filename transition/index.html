@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions</title>
+
+   
+
+   <style>
+
+
+   	body{
+   		font-family: sans-serif;
+   		font-size:60px;
+   		color:#FFF;
+   	}
+
+   	.cardholder{
+        text-align: center;
+
+   	}
+      
+    .card{
+    	position: relative;
+    
+       display: inline-block;
+
+    }
+
+    .card img{
+      width:500px;
+      max-width: 100%;
+      height:auto;
+
+       -webkit-filter: sepia:(1); 
+      filter: sepia(1) ;
+      transform: scale(.5,.5);
+
+    }
+
+
+    .center {
+
+     padding: 60% 0;
+     text-align: center;
+    }
+
+
+
+
+
+    .card:hover img{
+
+    	 -webkit-filter: sepia:(0px);
+      filter: sepia(0) ;
+      transform: scale(1,1);
+
+
+
+    }
+
+    .card_text{
+    	margin:0;
+    }
+
+
+
+   </style>
+
+</head>
+<body>
+
+
+
+
+	<div class="cardholder">
+       <div class="card">
+       	  <img src="img/butterfly.png" alt="butterfly">
+       </div>
+	</div>
+
+</body>
+</html>
